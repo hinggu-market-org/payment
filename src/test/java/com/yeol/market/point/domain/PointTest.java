@@ -5,7 +5,7 @@ import static com.yeol.market.point.fixture.PointFixture.멤버1_ID;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatThrownBy;
 
-import com.coffeeshop.exception.InvalidPriceException;
+import com.yeol.market.point.domain.exception.InvalidPriceException;
 import com.yeol.market.point.domain.exception.NotEnoughBalanceException;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

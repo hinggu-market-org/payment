@@ -1,10 +1,10 @@
 package com.yeol.market.point.application;
 
-import com.coffeeshop.exception.NotFoundPointException;
 import com.yeol.market.point.application.dto.PointChargeDto;
 import com.yeol.market.point.application.dto.PointSpendDto;
 import com.yeol.market.point.domain.Point;
 
+import com.yeol.market.point.exception.NotFoundPointException;
 import com.yeol.market.point.utils.ServiceTest;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
